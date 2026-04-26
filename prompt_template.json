@@ -1,0 +1,19 @@
+{
+    "name": null,
+    "input_variables": [
+        "audience",
+        "language",
+        "style",
+        "tone",
+        "user_question"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an intelligent assistant. \n\nQuestion: {user_question}\n\nInstructions:\n- Provide the answer DIRECTLY. \n- Do NOT repeat these instructions or provide a \"plan\" for the answer.\n- Start immediately with the content.\n- Answer in a {tone} tone.\n- Provide output in {style}.\n- Target audience is {audience}.\n- Respond in {language}.\n- Make sure the answer is clear, accurate, and helpful.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
